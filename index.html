@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<meta charset="UTF-8" />
+		<title>|'|</title>
+		
+		<link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="customization.css" media="screen" />
+
+		<script type="text/javascript" src="thispagemodule.js"></script>
+
+		<!-- just for test -->
+		<script type="text/javascript" src="test/test.js"></script>
+
+	</head>
+	<body>
+		<div class="player_container">
+
+			
+			<!-- display area, just for testing -->
+			<div class="display_sth">
+
+				<svg id="svg">
+	  				<rect x="120" y="100" rx="10" ry="10" width="500" height="200" style="fill:blue;stroke:blue;stroke-width:2;opacity:0.6" ></rect>
+	  				<rect x="450" y="30" rx="10" ry="10" width="200" height="300" style="fill:grey;stroke:grey;stroke-width:2;opacity:0.5" ></rect>
+	  				<polygon points="300,75 550,150 500,380 400,140" style="fill:green;stroke:green;stroke-width:2;opacity:0.8" ></polygon>
+					Your browser doesn't support inline SVG.
+				</svg>
+				
+			</div>
+			
+
+			<!-- Menu -->	
+			<div id="menu_container">
+				<!-- span value of all li elements have to equal 10 in single ul list -->
+				<!-- inline-block white-space bug fixed by code formatiing </li><li> -->
+				<ul class="row">
+					<li class="span1">
+					</li><li class="span1">
+						<button class="button" id="w" type="button" name="w_key" value="w">W</button>
+					</li><li class="span0_75">
+					</li><li class="span1_5">
+						<button class="button" id="tab" type="button" name="tab_key" value="tab">TAB</button>
+					</li><li class="span1_5">
+						<button class="button" id="ctrl" type="button" name="ctrl_key" value="ctrl">CTRL</button>
+					</li><li class="span1_5">
+						<button class="button" id="alt" type="button" name="alt_key" value="alt">ALT</button>
+					</li><li class="span0_75">
+					</li><li class="span1">
+						<button class="button" id="up" type="button" name="up_arrow_key" value="up">&uarr;</button>
+					</li><li class="span1">
+
+				</ul>
+
+				<ul class="row">
+					<li class="span1">
+						<button class="button" id="a" type="button" name="a_key" value="a">A</button>
+					</li><li class="span1">
+						<button class="button" id="s" type="button" name="s_key" value="s">S</button>
+					</li><li class="span1">
+						<button class="button" id="d" type="button" name="d_key" value="d">D</button>
+					</li><li class="span4">
+						<button class="button" id="space" type="button" name="space_key" value="space">SPACE</button>
+					</li><li class="span1">
+						<button class="button" id="left" type="button" name="left_arrow_key" value="left">&larr;</button>
+					</li><li class="span1">
+						<button class="button" id="down" type="button" name="down_arrow_key" value="down">&darr;</button>
+					</li><li class="span1">
+						<button class="button" id="right" type="button" name="right_arrow_key" value="right">&rarr;</button>
+					</li>
+
+				</ul>
+
+			</div>
+
+		</div>
+
+	</body>
+</html>

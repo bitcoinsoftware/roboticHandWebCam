@@ -1,0 +1,68 @@
+/* font size */
+html {
+	font-size: 80%;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+/* page background */
+body {
+	background: #222;
+}
+
+/* svg area width */
+.player_container {
+	max-width: 800px;
+}
+
+/* svg area height and bottom border */
+.player_container > .display_sth {
+	height: 600px; /* just for test */
+	border-bottom: 3px solid #222;
+}
+
+/* player area background and borders */
+.player_container {
+	background: #E7E7E7;
+	border: 2px solid #222;
+	-webkit-border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	border-radius: 0.5em;
+}
+
+/* ************ MENU ************** */
+/* menu background color */
+.player_container > #menu_container {
+	background: #222;
+}
+
+/* button default */
+#menu_container > ul.row > li > .button {
+	width: 100%;
+	padding: 0 5px;
+	text-align: center;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+	box-sizing: border-box;
+	/* text and background color */
+	color: black;
+	background: #CCC;
+	background: -webkit-gradient(linear, left top, left bottom, from(#CCC), to(#888));
+	background: -moz-linear-gradient(top,  #CCC,  #888);
+	background: -ms-linear-gradient(top,  #CCC,  #888);
+	background: -o-linear-gradient(top,  #CCC,  #888);
+	background: linear-gradient(top,  #CCC,  #888);
+	filter: progid:DXImageTransform.Microsoft.Gradient(startColorstr='#CCC', endColorstr='#888');
+}
+
+/* hover and focus buttons color */
+#menu_container > ul.row > li > .btn_focus, 
+#menu_container > ul.row > li > .btn_hover {
+	-webkit-box-shadow: inset 0px 0px 15px #3875D6;
+	-moz-box-shadow: inset 0px 0px 15px #3875D6;
+	box-shadow: inset 0px 0px 15px #3875D6;
+}
+
+/* active button effect */
+#menu_container > ul.row > li > .btn_active {
+	padding: 0px 4px 0px 6px;
+	background: #3875D6;
+}

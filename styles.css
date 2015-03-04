@@ -1,0 +1,92 @@
+/* reset part */
+html {
+	font-family: sans-serif;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+
+button {
+	outline: 0;
+	border: 0;
+	color: inherit;
+	font: inherit;
+	margin: 0;
+	overflow: visible;
+	text-transform: none;
+	text-decoration: none;
+	-webkit-appearance: button;
+
+	/* inline block fix for IE 6&7 */
+	*display: inline;
+	zoom: 1;
+}
+
+/* Re-set default cursor for disabled elements. */
+button[disable] {
+	cursor: default;
+}
+
+/* Remove inner padding and border in Firefox 4+. */
+button::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+
+/* Correct overflow not hidden in IE 9/10/11. */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* ----------- PAGE PART ------------------------ */
+.player_container {	
+	margin: 40px auto;
+}
+
+.player_container > .display_sth {
+	box-sizing: border-box;
+}
+
+#menu_container {
+	font: bold 1.6em/1.6em sans-serif;
+	margin: 0.1em 0.1em;
+	padding-top: 0.2em; 
+	text-align: center;
+	white-space: nowrap;
+}
+
+#menu_container > ul.row {
+	list-style: none;
+	margin: 0;
+	padding: 0 0.2em 0.2em 0.2em;
+}
+
+#menu_container > ul.row > li {
+	display: inline-block;
+	margin-right: 0.5%;
+}
+
+#menu_container > ul.row > li:last-child {
+	margin-right: 0;
+}
+
+.span0_75 {
+	width: 7%;
+}
+.span1 {
+	width: 9.5%;
+}
+
+.span1_5 {
+	width: 14.5%;
+}
+
+.span4 {
+	width: 39.5%;
+}
